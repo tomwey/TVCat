@@ -21,4 +21,51 @@ export class HomePage {
     console.log('ionViewDidLoad MediaPage');
   }
 
+  openBanner(banner) {
+
+  }
+
+  autoPlay() {
+
+  }
+
+  bannersData: any = [
+    {
+      cover: 'assets/imgs/banner1.jpg',
+    }
+  ];
+
+  sectionsData: any = [
+    {
+      name: '爱奇艺',
+      icon: 'icon_iqiyi.png',
+      link: 'http://'
+    },
+    {
+      name: '优酷视频',
+      icon: 'icon_youku.jpg',
+      link: 'http://'
+    },
+    {
+      name: '腾讯视频',
+      icon: 'icon_qqtv.jpg',
+      link: 'http://'
+    },
+    {
+      name: '乐视视频',
+      icon: 'icon_letv.png',
+      link: 'http://'
+    },
+    {
+      name: '芒果TV',
+      icon: 'icon_mgtv.png',
+      link: 'http://'
+    },
+    {
+      name: 'PPTV',
+      icon: 'icon_pptv.png',
+      link: 'http://'
+    },
+  ];
+
 }
