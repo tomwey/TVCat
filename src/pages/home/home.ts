@@ -9,10 +9,10 @@ import { NavController, NavParams } from 'ionic-angular';
  */
 
 @Component({
-  selector: 'page-media',
-  templateUrl: 'media.html',
+  selector: 'page-home',
+  templateUrl: 'home.html',
 })
-export class MediaPage {
+export class HomePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

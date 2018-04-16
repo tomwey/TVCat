@@ -9,7 +9,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { TabsPage }    from '../pages/tabs/tabs';
-import { MediaPage }   from '../pages/media/media';
+import { HomePage }   from '../pages/home/home';
 import { ExplorePage } from '../pages/explore/explore';
 import { SettingPage } from '../pages/setting/setting';
 
@@ -32,7 +32,7 @@ import { BreadcrumbService } from '../services/breadcrumb.service';
   declarations: [
     MyApp,
     TabsPage,
-    MediaPage,
+    HomePage,
     ExplorePage,
     SettingPage,
   ],
@@ -49,7 +49,7 @@ import { BreadcrumbService } from '../services/breadcrumb.service';
   entryComponents: [
     MyApp,
     TabsPage,
-    MediaPage,
+    HomePage,
     ExplorePage,
     SettingPage,
   ],
