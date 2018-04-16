@@ -84,7 +84,6 @@
     <allow-navigation href="http://192.168.0.103:8101" />
     <allow-navigation href="http://10.19.0.129:8100" />
     <allow-navigation href="*" />
-
     <engine name="android" spec="^6.2.3" />
     <engine name="ios" spec="^4.5.4" />
     <plugin name="com.kit.cordova.amaplocation" spec="git+https://github.com/yanxiaojun617/com.kit.cordova.amaplocation.git" />
